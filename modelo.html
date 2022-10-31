@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afazeres</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de tarefas</h1>
+    </header>
+    <section>
+        <div>
+             Anote suas tarefas: <input type="text" id="tarefa">
+             <input type="button" value="Gravar" onclick="gravar()">
+        </div>
+        <div>
+             <select name="lista" id="lista" size="7" multiple="multiple">
+             </select>
+        </div>
+        <div id="res"></div>
+    </section>
+    <footer>
+        <p>&copy; TiagoSites</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
